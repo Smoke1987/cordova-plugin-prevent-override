@@ -21,3 +21,14 @@ description: Plugin to prevent the Cordova app being overridden by an external p
 #         under the License.
 -->
 
+# cordova-plugin-prevent-override
+
+Plugin to prevent the Cordova app being overridden by an external page.
+
+## Installation
+
+You can install the plugin using the following command:
+
+```sh
+cordova plugin add cordova-plugin-prevent-override
+```
