@@ -21,7 +21,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="cordova-plugin-prevent-override"
-    version="1.0.0">
+    version="1.0.1">
 
     <name>Prevent Override</name>
     <description>Cordova Prevent Override Plugin</description>
