@@ -19,7 +19,7 @@ public class PreventOverride extends CordovaPlugin {
     public boolean onOverrideUrlLoading(String url) {
         Log.d(TAG, "On override URL loading: " + url);
 
-        if (!url.startsWith("http://localhost")) {
+        if (!url.startsWith("http://localhost") && !url.startsWith("blob:http://localhost")) {
             // External site, call the Javascript function to handle it.
             String js = "onOverrideUrlLoading('" + url + "')";
 
